@@ -212,6 +212,10 @@ main {
   margin: 0;
 }
 
+.top-img img {
+    width: 100%;
+}
+
 /* Side Bar =========================== */
 
 .sidebar {
@@ -532,6 +536,10 @@ footer {
     width: 100%;
     padding-bottom: 1em;
   }
+
+.top-img img {
+	max-width: 620px;
+}
 
   .top-info {
     width: 100%;
