@@ -114,6 +114,34 @@ textarea {
      clear: both;
    }
 
+   /* Featured News Item =========================== */
+
+   .top-story {
+       width: 100%;
+   }
+
+   /* Side Bar =========================== */
+
+   .sidebar {
+       width: 100%;
+   }
+
+   /* Feed Section =========================== */
+
+   .feed {
+       width: 100%;
+   }
+
+   .feed-img {
+       width: 45%;
+   }
+
+   /* ABOUT PAGE ================================ */
+
+   .contact-info{
+       width: 100%;
+   }
+
    /* Footer =========================== */
    footer {
      width: 100%;
