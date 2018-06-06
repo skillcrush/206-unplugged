@@ -327,6 +327,46 @@ textarea {
 
 @media only screen and (min-width:940px) {
   /* Desktop styles here */
+
+  /* Featured News Item =========================== */
+  .top-story {
+    width: 65%;
+    float: left;
+  }
+
+  .top-img {
+    width: 100%;
+  }
+
+  /* Side Bar =========================== */
+  .sidebar {
+    clear: none;
+    width: 30%;
+    float: right;
+  }
+
+  /* News/Reviews Feed Section =========================== */
+  .feed {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+
+  .feed p {
+    display: block;
+    margin-top: 0;
+  }
+
+  .feed-img {
+    width: 20%;
+  }
+
+  /* Footer =========================== */
+
+  .footer-logo {
+    width: 20%;
+  }
+  
 }
 
 @media print,
