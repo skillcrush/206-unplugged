@@ -300,6 +300,54 @@ main {
    vertical-align: top;
 }
 
+.strong {
+   font-weight: 700;
+}
+
+.mission {
+   width: 100%;
+}
+
+.team-member {
+   padding: 15px 0;
+   clear: both;
+}
+
+.team-img {
+   width: 40%;
+   padding-bottom: 40%;
+   float: left;
+   margin-right: 20px;
+   border: 1px solid #ccc;
+}
+
+.team-name {
+   margin-bottom: 0;
+}
+
+.team-title {
+   margin-top: 0;
+}
+
+.team-description {
+   display: none;
+}
+
+#team-img-jack {
+   background: url('../img/team-jack.png') center no-repeat;
+   background-size: cover;
+}
+
+#team-img-lana {
+   background: url('../img/team-lana.png') center no-repeat;
+   background-size: cover;
+}
+
+#team-img-willow {
+   background: url('../img/team-willow.png') center no-repeat;
+   background-size: cover;
+}
+
 /* FAQ PAGE ================================ */
 .faqs-item {
    border-bottom: 1px solid #cccccc;
@@ -418,6 +466,7 @@ footer {
     width: 100%;
     margin: auto;
     padding: 0 3%;
+    background-color: #dddddd;
   }
 
   .main-header .header-wrapper {
@@ -513,6 +562,27 @@ footer {
     float: left;
   }
 
+  .mission {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+    clear: both;
+  }
+
+  .team {
+    padding-top: 15px;
+  }
+
+  .team-member {
+    padding: 15px 0;
+  }
+
+  .team-img {
+    width: 20%;
+    padding-bottom: 20%;
+    margin-right: 10%;
+  }
+
   /* Footer =========================== */
   .footer-logo {
     width: 30%;
@@ -531,6 +601,10 @@ footer {
 
   h2 {
     font-size: 1.4em;
+  }
+
+  .main-header {
+    background-color: #dddddd;
   }
 
   /* Featured News Item =========================== */
@@ -594,6 +668,24 @@ footer {
 
   .feed-img {
     width: 20%;
+  }
+
+  /* ABOUT PAGE ================================ */
+
+  .team-member {
+    padding:15px 0;
+  }
+
+  .team-img {
+    margin-right: 5%;
+  }
+
+  .team-name {
+    margin-top: 0;
+  }
+
+  .team-description {
+    display: block;
   }
 
   /* Footer =========================== */
