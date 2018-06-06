@@ -151,6 +151,10 @@ figure {
  display: block;
 }
 
+.btn i {
+   padding-right: 10px;
+}
+
 input.btn {
  background-color: #ff1256;
 }
