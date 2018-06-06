@@ -155,6 +155,10 @@ input.btn {
  background-color: #ff1256;
 }
 
+.last-item {
+   border-bottom: none !important;
+}
+
 /* Header =========================== */
 .main-header {
  width: 100%;
@@ -275,6 +279,25 @@ main {
 .contact-info{
    width: 100%;
    padding-top: 30px;
+}
+
+.contact-info ul {
+   list-style: none;
+   padding: 0;
+}
+
+.contact-info ul li {
+   display: inline-block;
+   vertical-align: top;
+}
+
+/* FAQ PAGE ================================ */
+.faqs-item {
+   border-bottom: 1px solid #cccccc;
+}
+
+.faqs-item h3 {
+   font-weight: 400;
 }
 
 /* Footer =========================== */
@@ -404,9 +427,24 @@ footer {
     float: left;
   }
 
+  nav ul {
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+    padding: 0 2%;
+    border: none;
+    position: relative;
+  }
+
   /* Featured News Item =========================== */
   .top-story {
     width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .top-img {
@@ -429,16 +467,27 @@ footer {
 
   .sidebar-about-us, .sidebar-faqs {
     display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 0 10px 20px 10px;
   }
 
   /* News Feed Section =========================== */
   .feed {
     width: 60%;
     float: left;
+    border-right: 1px solid #ccc;
+  }
+
+  .feed h2 {
+    font-size: 1.125em;
   }
 
   .feed-img {
     width: 35%;
+  }
+
+  .feed-item {
+    padding-right: 20px;
   }
 
   .feed-info {
@@ -462,14 +511,31 @@ footer {
 @media only screen and (min-width:940px) {
   /* Desktop styles here */
 
+  h1 {
+    font-size: 1.6em;
+    line-height: 1.8;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
   /* Featured News Item =========================== */
   .top-story {
     width: 65%;
     float: left;
+    border: none;
+    padding-right: 2%;
   }
 
   .top-img {
     width: 100%;
+    padding-bottom: 1em;
+  }
+
+  .top-info {
+    width: 100%;
+    float: none;
   }
 
   /* Side Bar =========================== */
@@ -477,6 +543,17 @@ footer {
     clear: none;
     width: 30%;
     float: right;
+    border-left: 1px solid #ccc;
+  }
+
+  .sidebar-newsletter,
+  .sidebar-about-us,
+  .sidebar-faqs {
+    padding: 0 20px 20px 20px;
+  }
+
+  .sidebar-faqs {
+    border: none;
   }
 
   /* News/Reviews Feed Section =========================== */
@@ -484,11 +561,18 @@ footer {
     width: 100%;
     float: none;
     clear: both;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    border-right: none;
   }
 
   .feed p {
     display: block;
     margin-top: 0;
+  }
+
+  .feed h2 {
+    margin: 0;
   }
 
   .feed-img {
