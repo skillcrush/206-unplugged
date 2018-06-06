@@ -97,66 +97,120 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* Header =========================== */
-   .main-header {
-     width: 100%;
-   }
+body, html {
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 16px;
+ color: #222;
+}
 
-   nav {
-     width: 100%;
-   }
+a {
+ font-weight: 700;
+ color: #23a4cc;
+ text-decoration: none;
+}
 
-   /* Main Content =========================== */
-   main {
-     width: 96%;
-     padding: 0 2%;
-     margin: auto;
-     clear: both;
-   }
+p {
+ font-size: 1em;
+ line-height: 1.4;
+}
 
-   /* Featured News Item =========================== */
+img {
 
-   .top-story {
-       width: 100%;
-   }
+}
 
-   /* Side Bar =========================== */
+h1, h2, h3, h4 {
+ font-weight: 700;
+}
 
-   .sidebar {
-       width: 100%;
-   }
+h1 {
+ font-size:1.4em;
+ line-height: 1.6;
+}
 
-   .sidebar-about-us,
-   .sidebar-faqs {
-      display: none;
-   }
+h2 {
+ font-size: 1em;
+}
 
-   /* Feed Section =========================== */
+figure {
 
-   .feed {
-       width: 100%;
-   }
+}
 
-   .feed-img {
-       width: 45%;
-   }
+.btn {
+ color: #fff;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 2.5;
+ text-align: center;
+ box-shadow: 2px 2px 0px #DADADA;
+ height: 2.5em;
+ width: 100%;
+ display: block;
+}
 
-   /* ABOUT PAGE ================================ */
+input.btn {
 
-   .contact-info{
-       width: 100%;
-   }
+}
 
-   /* Footer =========================== */
-   footer {
-     width: 100%;
-     margin: auto;
-   }
+/* Header =========================== */
+.main-header {
+ width: 100%;
+}
 
-   .footer-logo {
-     width: 47.5%;
-     margin: auto;
-   }
+nav {
+ width: 100%;
+}
+
+/* Main Content =========================== */
+main {
+ width: 96%;
+ padding: 0 2%;
+ margin: auto;
+ clear: both;
+}
+
+/* Featured News Item =========================== */
+
+.top-story {
+   width: 100%;
+}
+
+/* Side Bar =========================== */
+
+.sidebar {
+   width: 100%;
+}
+
+.sidebar-about-us,
+.sidebar-faqs {
+  display: none;
+}
+
+/* Feed Section =========================== */
+
+.feed {
+   width: 100%;
+}
+
+.feed-img {
+   width: 45%;
+}
+
+/* ABOUT PAGE ================================ */
+
+.contact-info{
+   width: 100%;
+}
+
+/* Footer =========================== */
+footer {
+ width: 100%;
+ margin: auto;
+}
+
+.footer-logo {
+ width: 47.5%;
+ margin: auto;
+}
 
 /* ==========================================================================
    Helper classes
@@ -366,7 +420,7 @@ textarea {
   .footer-logo {
     width: 20%;
   }
-  
+
 }
 
 @media print,
