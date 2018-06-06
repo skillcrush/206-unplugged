@@ -196,6 +196,10 @@ nav ul li a {
   color: #333;
 }
 
+nav i {
+   padding-right: 10px;
+}
+
 /* Main Content =========================== */
 main {
  width: 96%;
