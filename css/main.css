@@ -101,6 +101,7 @@ body, html {
  font-family: 'Source Sans Pro', sans-serif;
  font-size: 16px;
  color: #222;
+ background-color: #eee;
 }
 
 a {
@@ -115,7 +116,8 @@ p {
 }
 
 img {
-
+ width: 100%;
+ height: auto;
 }
 
 h1, h2, h3, h4 {
@@ -132,10 +134,12 @@ h2 {
 }
 
 figure {
-
+ margin: 0;
 }
 
 .btn {
+ background-color: #b21e49;
+ border: none;
  color: #fff;
  font-weight: 700;
  text-transform: uppercase;
@@ -148,16 +152,40 @@ figure {
 }
 
 input.btn {
-
+ background-color: #ff1256;
 }
 
 /* Header =========================== */
 .main-header {
  width: 100%;
+ margin: auto;
+ background-color: #eee;
+}
+
+.logo {
+ width: 100%;
+ margin: 0 auto;
 }
 
 nav {
  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding: 15px 0;
+}
+
+nav ul li a {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  color: #333;
 }
 
 /* Main Content =========================== */
@@ -171,13 +199,34 @@ main {
 /* Featured News Item =========================== */
 
 .top-story {
-   width: 100%;
+ width: 100%;
+ border-bottom: 1px solid #ccc;
+}
+
+.top-img {
+  width: 100%;
+  margin: 0;
 }
 
 /* Side Bar =========================== */
 
 .sidebar {
-   width: 100%;
+ width: 100%;
+}
+
+.sidebar-newsletter {
+  border-bottom: 1px solid #ccc;
+  padding: 0 10px 20px 10px;
+}
+
+.sidebar-newsletter input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sidebar-newsletter input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px 0;
 }
 
 .sidebar-about-us,
@@ -191,20 +240,51 @@ main {
    width: 100%;
 }
 
+.feed p {
+ display: none;
+}
+
+.feed-item {
+  clear: both;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.feed-type {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.feed-item h2 {
+  margin: 0;
+}
+
+.feed-item h2 a {
+   color: #222;
+}
+
 .feed-img {
-   width: 45%;
+ width: 45%;
+ float: left;
+ margin: 0;
+ padding-right: 3%;
 }
 
 /* ABOUT PAGE ================================ */
 
 .contact-info{
    width: 100%;
+   padding-top: 30px;
 }
 
 /* Footer =========================== */
 footer {
  width: 100%;
  margin: auto;
+ border-top: 1px solid #ccc;
+ padding-top: 20px;
+ margin-top: 20px;
+ clear: both;
 }
 
 .footer-logo {
