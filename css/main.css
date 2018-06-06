@@ -171,6 +171,10 @@ input.btn {
  margin: 0 auto;
 }
 
+.logo img {
+   width: 100%;
+}
+
 nav {
  width: 100%;
 }
@@ -197,6 +201,7 @@ main {
  width: 96%;
  padding: 0 2%;
  margin: auto;
+ max-width: 960px;
  clear: both;
 }
 
@@ -424,6 +429,10 @@ footer {
   .logo {
     width: 40%;
     float: left;
+  }
+
+  .logo img {
+    max-width: 312px;
   }
 
   nav {
