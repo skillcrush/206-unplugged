@@ -97,21 +97,223 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body, html {
+ font-family: 'Source Sans Pro', sans-serif;
+ font-size: 16px;
+ color: #222;
+ background-color: #eee;
+}
 
+a {
+ font-weight: 700;
+ color: #23a4cc;
+ text-decoration: none;
+}
 
+p {
+ font-size: 1em;
+ line-height: 1.4;
+}
 
+img {
+ width: 100%;
+ height: auto;
+}
 
+h1, h2, h3, h4 {
+ font-weight: 700;
+}
 
+h1 {
+ font-size:1.4em;
+ line-height: 1.6;
+}
 
+h2 {
+ font-size: 1em;
+}
 
+figure {
+ margin: 0;
+}
 
+.btn {
+ background-color: #b21e49;
+ border: none;
+ color: #fff;
+ font-weight: 700;
+ text-transform: uppercase;
+ line-height: 2.5;
+ text-align: center;
+ box-shadow: 2px 2px 0px #DADADA;
+ height: 2.5em;
+ width: 100%;
+ display: block;
+}
 
+input.btn {
+ background-color: #ff1256;
+}
 
+.last-item {
+   border-bottom: none !important;
+}
 
+/* Header =========================== */
+.main-header {
+ width: 100%;
+ margin: auto;
+ background-color: #eee;
+}
 
+.logo {
+ width: 100%;
+ margin: 0 auto;
+}
 
+nav {
+ width: 100%;
+}
 
+nav ul {
+  list-style: none;
+  padding: 0;
+}
 
+nav ul li {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding: 15px 0;
+}
+
+nav ul li a {
+  font-size: 1.125em;
+  text-transform: uppercase;
+  color: #333;
+}
+
+/* Main Content =========================== */
+main {
+ width: 96%;
+ padding: 0 2%;
+ margin: auto;
+ clear: both;
+}
+
+/* Featured News Item =========================== */
+
+.top-story {
+ width: 100%;
+ border-bottom: 1px solid #ccc;
+}
+
+.top-img {
+  width: 100%;
+  margin: 0;
+}
+
+/* Side Bar =========================== */
+
+.sidebar {
+ width: 100%;
+}
+
+.sidebar-newsletter {
+  border-bottom: 1px solid #ccc;
+  padding: 0 10px 20px 10px;
+}
+
+.sidebar-newsletter input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sidebar-newsletter input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px 0;
+}
+
+.sidebar-about-us,
+.sidebar-faqs {
+  display: none;
+}
+
+/* Feed Section =========================== */
+
+.feed {
+   width: 100%;
+}
+
+.feed p {
+ display: none;
+}
+
+.feed-item {
+  clear: both;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.feed-type {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.feed-item h2 {
+  margin: 0;
+}
+
+.feed-item h2 a {
+   color: #222;
+}
+
+.feed-img {
+ width: 45%;
+ float: left;
+ margin: 0;
+ padding-right: 3%;
+}
+
+/* ABOUT PAGE ================================ */
+
+.contact-info{
+   width: 100%;
+   padding-top: 30px;
+}
+
+.contact-info ul {
+   list-style: none;
+   padding: 0;
+}
+
+.contact-info ul li {
+   display: inline-block;
+   vertical-align: top;
+}
+
+/* FAQ PAGE ================================ */
+.faqs-item {
+   border-bottom: 1px solid #cccccc;
+}
+
+.faqs-item h3 {
+   font-weight: 400;
+}
+
+/* Footer =========================== */
+footer {
+ width: 100%;
+ margin: auto;
+ border-top: 1px solid #ccc;
+ padding-top: 20px;
+ margin-top: 20px;
+ clear: both;
+}
+
+.footer-logo {
+ width: 47.5%;
+ margin: auto;
+}
 
 /* ==========================================================================
    Helper classes
@@ -199,8 +401,190 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width:768px) {
+  /* Tablet styles here */
+
+  /* Header =========================== */
+  .main-header {
+    width: 100%;
+    margin: auto;
+    padding: 0 3%;
+  }
+
+  .main-header .header-wrapper {
+    width: 94%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    width: 40%;
+    float: left;
+  }
+
+  nav {
+    width: 60%;
+    float: left;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+    padding: 0 2%;
+    border: none;
+    position: relative;
+  }
+
+  /* Featured News Item =========================== */
+  .top-story {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .top-img {
+    width: 57%;
+    float: left;
+    padding-right: 3%;
+  }
+
+  .top-info {
+    width: 40%;
+    float: left;
+  }
+
+  /* Side Bar =========================== */
+  .sidebar {
+    clear: both;
+    width: 37%;
+    float: right;
+  }
+
+  .sidebar-about-us, .sidebar-faqs {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 0 10px 20px 10px;
+  }
+
+  /* News Feed Section =========================== */
+  .feed {
+    width: 60%;
+    float: left;
+    border-right: 1px solid #ccc;
+  }
+
+  .feed h2 {
+    font-size: 1.125em;
+  }
+
+  .feed-img {
+    width: 35%;
+  }
+
+  .feed-item {
+    padding-right: 20px;
+  }
+
+  .feed-info {
+    width: 57%;
+  }
+
+  /* ABOUT PAGE ================================ */
+  .contact-info {
+    width: 40%;
+    float: left;
+  }
+
+  /* Footer =========================== */
+  .footer-logo {
+    width: 30%;
+    margin: auto;
+  }
+
+}
+
+@media only screen and (min-width:940px) {
+  /* Desktop styles here */
+
+  h1 {
+    font-size: 1.6em;
+    line-height: 1.8;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  /* Featured News Item =========================== */
+  .top-story {
+    width: 65%;
+    float: left;
+    border: none;
+    padding-right: 2%;
+  }
+
+  .top-img {
+    width: 100%;
+    padding-bottom: 1em;
+  }
+
+  .top-info {
+    width: 100%;
+    float: none;
+  }
+
+  /* Side Bar =========================== */
+  .sidebar {
+    clear: none;
+    width: 30%;
+    float: right;
+    border-left: 1px solid #ccc;
+  }
+
+  .sidebar-newsletter,
+  .sidebar-about-us,
+  .sidebar-faqs {
+    padding: 0 20px 20px 20px;
+  }
+
+  .sidebar-faqs {
+    border: none;
+  }
+
+  /* News/Reviews Feed Section =========================== */
+  .feed {
+    width: 100%;
+    float: none;
+    clear: both;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    border-right: none;
+  }
+
+  .feed p {
+    display: block;
+    margin-top: 0;
+  }
+
+  .feed h2 {
+    margin: 0;
+  }
+
+  .feed-img {
+    width: 20%;
+  }
+
+  /* Footer =========================== */
+
+  .footer-logo {
+    width: 20%;
+  }
+
 }
 
 @media print,
